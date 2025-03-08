@@ -3,7 +3,6 @@ vim.cmd([[
 call plug#begin()
 
 "" NVIM THEMES""""""""""""""""""""""""""""""""""""
-Plug 'maxmx03/fluoromachine.nvim'
 Plug 'scottmckendry/cyberdream.nvim'
 Plug 'slugbyte/lackluster.nvim'
 Plug 'sainnhe/sonokai'
@@ -63,6 +62,7 @@ vim.api.nvim_set_keymap('n', '<C-t>', ':terminal<CR>', { noremap = true, silent 
 vim.api.nvim_set_keymap('n', 'ti', 'gg=G``', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tc', ':q<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tfc', ':q!<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-d>', 'viw', { noremap = true, silent = true })
 
 
 
@@ -72,7 +72,7 @@ vim.api.nvim_set_keymap('n', 'tfc', ':q!<CR>', { noremap = true, silent = true }
 -- ColorScheme Default ----------------------------------------------------------------------------------------
 
 
-   vim.cmd("colorscheme solarized-flat")
+ vim.cmd("colorscheme solarized-flat")
 -- vim.cmd("colorscheme gotham")
 -- vim.cmd("colorscheme lackluster")
 -- vim.cmd("colorscheme cyberdream")
