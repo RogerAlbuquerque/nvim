@@ -163,7 +163,6 @@ vim.g.coc_global_extensions = {
   'coc-emmet',        -- Expansões rápidas para HTML e JSX
   'coc-yaml',         -- Suporte para arquivos YAML (útil para configs)
   'coc-snippets',      -- Suporte a snippets
-  'coc-omnisharp',
 }
 
 
