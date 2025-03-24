@@ -7,5 +7,6 @@
         "v": "open:vsplit",
         "h": "open:split"
     },
-    "explorer.git.enable": true
+    "explorer.git.enable": true,
+    "snippets.ultisnips.pythonPrompt": false
 }

@@ -63,7 +63,8 @@ vim.api.nvim_set_keymap('n', 'ti', 'gg=G``', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tc', ':q<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tfc', ':q!<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<C-d>', 'viw', { noremap = true, silent = true })
-
+vim.api.nvim_set_keymap('n', '<C-S-y>', '"+yy', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<C-y>', '"+y', { noremap = true, silent = true })
 
 
 
