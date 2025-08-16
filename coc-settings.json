@@ -8,5 +8,5 @@
         "h": "open:split"
     },
     "explorer.git.enable": true,
-    "snippets.ultisnips.pythonPrompt": false,
+    "snippets.ultisnips.pythonPrompt": false
 }
