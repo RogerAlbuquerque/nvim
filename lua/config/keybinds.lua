@@ -3,6 +3,7 @@ vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
 vim.keymap.set("n", "<A-S-f>", "gg=G``")
 vim.keymap.set("n", "<A-q>", "<cmd>q<cr>")
 vim.keymap.set("n", "<A-S-q>", "<cmd>q!<cr>")
+vim.keymap.set("n", "<C-S-q>", "<cmd>qa<cr>")
 vim.keymap.set("n", "<C-s>", "<cmd>w<cr>")
 
 -- Buffers Keymaps
