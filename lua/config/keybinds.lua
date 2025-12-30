@@ -3,7 +3,7 @@ vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
 vim.keymap.set("n", "<A-S-f>", "gg=G``")
 vim.keymap.set("n", "<A-q>", "<cmd>q<cr>")
 vim.keymap.set("n", "<A-S-q>", "<cmd>q!<cr>")
-vim.keymap.set("n", "<C-S-q>", "<cmd>qa<cr>")
+vim.keymap.set("n", "<C-A-q>", "<cmd>qa<cr>")
 vim.keymap.set("n", "<C-s>", "<cmd>w<cr>")
 vim.keymap.set("t", "<C-\\>", "<C-\\><C-n>")
 
@@ -16,10 +16,10 @@ vim.keymap.set("n", "<C-k>", "<C-w>k")
 vim.keymap.set("n", "<C-l>", "<C-w>l")
 
 -- Mover entire split
-vim.keymap.set("n", "<C-H>", "<C-w>H")
-vim.keymap.set("n", "<C-J>", "<C-w>J")
-vim.keymap.set("n", "<C-K>", "<C-w>K")
-vim.keymap.set("n", "<C-L>", "<C-w>L")
+vim.keymap.set("n", "<A-h>", "<C-w>H")
+vim.keymap.set("n", "<A-j>", "<C-w>J")
+vim.keymap.set("n", "<A-k>", "<C-w>K")
+vim.keymap.set("n", "<A-l>", "<C-w>L")
 
 
 -- Buffers Keymaps
