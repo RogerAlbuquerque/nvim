@@ -5,6 +5,22 @@ vim.keymap.set("n", "<A-q>", "<cmd>q<cr>")
 vim.keymap.set("n", "<A-S-q>", "<cmd>q!<cr>")
 vim.keymap.set("n", "<C-S-q>", "<cmd>qa<cr>")
 vim.keymap.set("n", "<C-s>", "<cmd>w<cr>")
+vim.keymap.set("t", "<C-\\>", "<C-\\><C-n>")
+
+
+--Move inside split screens
+-- Move bettwen splits
+vim.keymap.set("n", "<C-h>", "<C-w>h")
+vim.keymap.set("n", "<C-j>", "<C-w>j")
+vim.keymap.set("n", "<C-k>", "<C-w>k")
+vim.keymap.set("n", "<C-l>", "<C-w>l")
+
+-- Mover entire split
+vim.keymap.set("n", "<C-H>", "<C-w>H")
+vim.keymap.set("n", "<C-J>", "<C-w>J")
+vim.keymap.set("n", "<C-K>", "<C-w>K")
+vim.keymap.set("n", "<C-L>", "<C-w>L")
+
 
 -- Buffers Keymaps
 vim.keymap.set("n", "<A-,>", "<cmd>BufferPrevious<cr>")
